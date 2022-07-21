@@ -1,0 +1,130 @@
+
+
+
+
+header{
+  background-color: black;
+  color:white;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.block-1{
+  width:50%;
+  text-align: left;
+}
+.block-2{
+  width:50%;
+}
+button{
+  padding: 10px;
+  margin-left: 10px;
+  color: black;
+  background-color: red;
+  border-radius: 10px;
+
+
+}
+.side-bar{
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: grid;
+  width:15%;
+  padding: 20px;
+  gap:10px;
+
+
+}
+
+.b-1,.b-2,.b-3{
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  
+  
+  
+}
+.b-3{
+  background-color: red;
+  color: white;
+}
+.menu .blog{
+  width:100%;
+}
+/* .menu{
+  border:3px solid gray;
+  width:44%;
+  border-radius: 15px;
+
+} */
+#icon{
+  margin-right: 50px;
+}
+/* .main{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  flex-wrap: wrap;
+}
+section{
+  display: flex;
+} */
+footer{
+  background-color: black;
+  color:white;
+  height:400px ;
+}
+footer h2,a{
+
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 20px;
+
+}
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+}
+.food img{
+  /* width:75%; */
+
+}
+@media screen and (max-width:576px) {
+  .menu{
+    background-color: orange;
+  }
+  .main{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+
+  .menu{
+    background-color: blue;
+  }
+  .main{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+.menu{
+  border:3px solid red;
+  border-radius: 10px;
+  padding:15px;
+
+}
