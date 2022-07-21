@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:ital,wght@0,100;1,100&family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
 
+body{
+  font-family: 'Poppins', sans-serif;
+  padding: 70px;
+}
 
+.ficon{
+  margin:50px;
+  width:200px;
+  top:100px;
+}
 
+.flag{
+  border: 2px solid gray;
+  text-align: center;
+  border-radius: 10px ;
+}
+
+#img{
+  padding: 20px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
 
 header{
   background-color: black;
@@ -69,14 +91,7 @@ button{
 #icon{
   margin-right: 50px;
 }
-/* .main{
-  display:grid;
-  grid-template-columns: repeat(3,1fr);
-  flex-wrap: wrap;
-}
-section{
-  display: flex;
-} */
+
 footer{
   background-color: black;
   color:white;
@@ -105,7 +120,7 @@ footer h2,a{
 
 }
 @media screen and (max-width:576px) {
-  .menu{
+  .menu,.flag{
     background-color: orange;
   }
   .main{
@@ -122,7 +137,7 @@ footer h2,a{
   }
   
 }
-.menu{
+.menu,.flag{
   border:3px solid red;
   border-radius: 10px;
   padding:15px;
